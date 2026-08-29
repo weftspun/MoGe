@@ -423,3 +423,6 @@ FodyWeavers.xsd
 /tmp
 /tensorboard
 /wandb
+# Scratch device-half exports. CLAUDE.md blocklists ONNX as an artifact; these
+# are controls, exported and diffed against PyTorch, never deliverables.
+*.onnx
